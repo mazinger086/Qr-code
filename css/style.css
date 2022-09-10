@@ -24,7 +24,9 @@ html {
     font-family: 'Outfit', sans-serif;
  }
 
-  .container { 
+  .container {
+    display: flex;
+    justify-content: center; 
     margin: 85px 27px;  
     width: 375px;
     max-width: 100%;      
@@ -37,10 +39,15 @@ html {
     }
   }
 
-  .qr-box {
+  .qr-box {    
+    width: 323px;
     background-color: #ffffff;
     padding: 17px;
-    border-radius: 10px;
+    border-radius: 15px;
+  }
+
+  .qr img{
+    border-radius: 15px;
   }
 
   .qr-text {
@@ -50,7 +57,7 @@ html {
   }
 
   .qr-text h3{
-    font-size: 23px;
+    font-size: 21px;
     font-weight: 700;
   }
 
