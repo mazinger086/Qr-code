@@ -18,7 +18,8 @@ html {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;    
+    align-items: center; 
+    min-height: 100vh;   
     background-color: hsl(212, 45%, 89%);
     margin: 0;
     font-family: 'Outfit', sans-serif;
@@ -27,14 +28,15 @@ html {
   .container {
     display: flex;
     justify-content: center; 
-    margin: 85px 27px;  
+    /* margin: 85px 27px;   */
     width: 375px;
-    max-width: 100%;      
+    max-width: 100%;
+    min-height: 100%;      
   }
 
   @media (min-width:768px) {
     .container {
-        margin: 152px 0;
+        /* margin: 152px 0; */
         max-width: 1440px;
     }
   }
@@ -47,7 +49,8 @@ html {
   }
 
   .qr img{
-    border-radius: 15px;
+    border-radius: 10px;
+    margin-bottom: 5px;
   }
 
   .qr-text {
@@ -59,13 +62,15 @@ html {
   .qr-text h3{
     font-size: 21px;
     font-weight: 700;
+    color: hsl(218, 44%, 22%);
   }
 
   .qr-text p {
     font-size: 15px;
     font-weight: 400;
+    color:  hsl(220, 15%, 55%)
   }
 
   .attribution {
-    margin-bottom: 20px;
+    margin: 20px;
   }
