@@ -27,16 +27,15 @@ html {
 
   .container {
     display: flex;
-    justify-content: center; 
-    /* margin: 85px 27px;   */
+    justify-content: center;
+    align-items: center; 
     width: 375px;
     max-width: 100%;
-    min-height: 100%;      
+    min-height: 100vh;    
   }
 
   @media (min-width:768px) {
     .container {
-        /* margin: 152px 0; */
         max-width: 1440px;
     }
   }
